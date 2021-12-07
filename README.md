@@ -48,7 +48,8 @@ También se especifica la ruta en donde están los step definitions
 #DafitistepsDefinition
 ***
 En esta Clase definimos las acciones que tendrá cada paso de los Gherkins
-y la clase en donde se enviarán los parámetros necesarios para correr los tests
+y la clase en donde se enviarán los parámetros necesarios para correr los tests.
+
 Dentro de esta clase hacemos el llamado al archivo Excel.xslx y los recorremos
 para posteriomente enviar el nombre de los productos al buscador de la pagina a automatizar
 
