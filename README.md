@@ -12,6 +12,7 @@ En esta clase configuramos en Driver para poder levantar en navegador GoogleChro
 
 
 #DafitiPage
+***
 En esta clase obtenemos los Xpath de los WebElement de la pagina para posteriormente
 utilizarlos en el proceso de la automatización 
 
@@ -19,6 +20,7 @@ utilizarlos en el proceso de la automatización
 
 
 #DafitiSteps
+***
 En este apartado tenemos los metodos donde pasamos la direccion de la web a automatizar y tambien
 los metodos que nos permiten ejecutar las acciones como buscar productos y validarlos
 
@@ -36,7 +38,7 @@ que tenemos previamente escritos en un excel, creado por nosotros
 
 
 #Runner
-
+***
 Dentro de esta clase se declara la ruta en donde se encuentran los archivos .feature
 y se declaran los tags que hayan sido definidos dentro de los escenarios o features de los Gherkins.
 También se especifica la ruta en donde están los step definitions
@@ -44,15 +46,17 @@ También se especifica la ruta en donde están los step definitions
 [![6-Runner.png](https://i.postimg.cc/ZYXjKdTW/6-Runner.png)](https://postimg.cc/7bMSKbJ4)
 
 #DafitistepsDefinition
-
+***
 En esta Clase definimos las acciones que tendrá cada paso de los Gherkins
 y la clase en donde se enviarán los parámetros necesarios para correr los tests
+Dentro de esta clase hacemos el llamado al archivo Excel.xslx y los recorremos
+para posteriomente enviar el nombre de los productos al buscador de la pagina a automatizar
 
 [![7-Steps-Definitions-1.png](https://i.postimg.cc/nz4Vjmyn/7-Steps-Definitions-1.png)](https://postimg.cc/2b5Ng1jt)
 [![8-Steps-Definition-2.png](https://i.postimg.cc/KjmGnzbB/8-Steps-Definition-2.png)](https://postimg.cc/LY0FSmn8)
 
 #Feature
-
+***
 Y por ultimo tenemos el archivo de texto donde se escriben los criterios de aceptación en formato Gherkin.
 Estos criterios de aceptación se podrían ver como las pruebas que vamos a preparar.
 
