@@ -11,7 +11,7 @@ En esta clase configuramos en Driver para poder levantar en navegador GoogleChro
 [![2-Google-Chrome-Driver.png](https://i.postimg.cc/9Qdm0ZZ1/2-Google-Chrome-Driver.png)](https://postimg.cc/XrvSDZ2y)
 
 
-#DafitiPage
+# DafitiPage
 ***
 En esta clase obtenemos los Xpath de los WebElement de la pagina para posteriormente
 utilizarlos en el proceso de la automatización 
@@ -19,7 +19,7 @@ utilizarlos en el proceso de la automatización
 [![3-Dafiti-Page.png](https://i.postimg.cc/X78304bD/3-Dafiti-Page.png)](https://postimg.cc/bss4xXdQ)
 
 
-#DafitiSteps
+# DafitiSteps
 ***
 En este apartado tenemos los metodos donde pasamos la direccion de la web a automatizar y tambien
 los metodos que nos permiten ejecutar las acciones como buscar productos y validarlos
@@ -28,7 +28,7 @@ los metodos que nos permiten ejecutar las acciones como buscar productos y valid
 
 
 
-#Test
+# Test
 
 # Excel
 En esta clase tenemos el codigo en el excel es cual nos captura los productos
@@ -37,7 +37,7 @@ que tenemos previamente escritos en un excel, creado por nosotros
 [![5-Excel.png](https://i.postimg.cc/4dBbgYWx/5-Excel.png)](https://postimg.cc/CBnfCxy3)
 
 
-#Runner
+# Runner
 ***
 Dentro de esta clase se declara la ruta en donde se encuentran los archivos .feature
 y se declaran los tags que hayan sido definidos dentro de los escenarios o features de los Gherkins.
@@ -45,7 +45,7 @@ También se especifica la ruta en donde están los step definitions
 
 [![6-Runner.png](https://i.postimg.cc/ZYXjKdTW/6-Runner.png)](https://postimg.cc/7bMSKbJ4)
 
-#DafitistepsDefinition
+# DafitistepsDefinition
 ***
 En esta Clase definimos las acciones que tendrá cada paso de los Gherkins
 y la clase en donde se enviarán los parámetros necesarios para correr los tests.
@@ -56,7 +56,7 @@ para posteriomente enviar el nombre de los productos al buscador de la pagina a 
 [![7-Steps-Definitions-1.png](https://i.postimg.cc/nz4Vjmyn/7-Steps-Definitions-1.png)](https://postimg.cc/2b5Ng1jt)
 [![8-Steps-Definition-2.png](https://i.postimg.cc/KjmGnzbB/8-Steps-Definition-2.png)](https://postimg.cc/LY0FSmn8)
 
-#Feature
+# Feature
 ***
 Y por ultimo tenemos el archivo de texto donde se escriben los criterios de aceptación en formato Gherkin.
 Estos criterios de aceptación se podrían ver como las pruebas que vamos a preparar.
