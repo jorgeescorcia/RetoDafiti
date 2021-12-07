@@ -32,6 +32,7 @@ que tenemos previamente escritos en un excel, creado por nosotrs
 [![5-Excel.png](https://i.postimg.cc/4dBbgYWx/5-Excel.png)](https://postimg.cc/CBnfCxy3)
 
 #Runner
+
 Dentro de esta clase se declara la ruta en donde se encuentran los archivos .feature
 y se declaran los tags que hayan sido definidos dentro de los escenarios o features de los Gherkins.
 También se especifica la ruta en donde están los step definitions
@@ -47,6 +48,7 @@ y la clase en donde se enviarán los parámetros necesarios para correr los test
 [![8-Steps-Definition-2.png](https://i.postimg.cc/KjmGnzbB/8-Steps-Definition-2.png)](https://postimg.cc/LY0FSmn8)
 
 #Feature
+
 Y por ultimo tenemos el archivo de texto donde se escriben los criterios de aceptación en formato Gherkin.
 Estos criterios de aceptación se podrían ver como las pruebas que vamos a preparar.
 
